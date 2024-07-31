@@ -1,0 +1,29 @@
+.list {
+  list-style-type: none; /* Removes the bullets */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+  height: 300px; /* Set a fixed height */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  border: 1px solid #ddd; /* Optional: Add a border to visualize the scrollable area */
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.name {
+  flex: 1;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.line {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}

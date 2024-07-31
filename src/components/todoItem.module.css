@@ -1,0 +1,29 @@
+.item {
+  font-size: 30px;
+  width: 500px;
+  color: #353935;
+  margin: 0 auto;
+  display: flex;
+}
+.name {
+  margin: 0 auto;
+  font-weight: bold;
+  padding: 10px;
+  list-style-type: none;
+}
+.line {
+  border: 1px solid #f4f4f4;
+}
+
+.button {
+  border: none;
+  border-radius: 4px;
+  background-color: #f7ca18;
+  padding: 12px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
